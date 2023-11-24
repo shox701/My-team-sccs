@@ -1,0 +1,362 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+  color: #FFF;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  height: 720px;
+  background: #004047;
+  background-image: url(../img/hero1.png), url(../img/hero2.png);
+  background-repeat: no-repeat;
+  background-position: center left, bottom right;
+}
+
+.nav {
+  display: flex;
+  padding-top: 80px;
+  color: white;
+}
+
+.nav__list {
+  display: flex;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.nav__item a {
+  color: white;
+  margin-left: 80px;
+  text-decoration: none;
+}
+
+.nav__btn {
+  width: 153px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  border: 2px solid #FFF;
+  background-color: #014E56;
+  margin-top: -5px;
+  margin-left: 500px;
+}
+
+.nav__btn a {
+  color: #FFF;
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+  text-decoration: none;
+}
+
+.hero__title {
+  color: #FFF;
+  font-family: "Livvic", sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px; /* 100% */
+  padding-top: 150px;
+  margin-left: 80px;
+}
+
+.hero__title > span {
+  color: #F67E7E;
+  font-family: "Livvic", sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+}
+
+.hero__disc {
+  display: block;
+  margin-top: -130px;
+  margin-left: 670px;
+}
+
+.rectangle__lightblue {
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background: #79C8C7;
+  margin-top: -230px;
+}
+
+.heroing__text {
+  width: 445px;
+  color: #FFF;
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+  margin-top: 100px;
+}
+
+.buildd {
+  height: 684px;
+  background: #012F34;
+  background-image: url(../img/build.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.build {
+  padding-top: 140px;
+}
+
+.rectangle__pink {
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background: #F67E7E;
+  margin-left: 80px;
+}
+
+.build h2 {
+  color: #FFF;
+  font-family: "Livvic", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  margin-top: 54px;
+  margin-left: 80px;
+}
+
+.build__list {
+  list-style-type: none;
+  color: white;
+  margin-left: 700px;
+  margin-top: -210px;
+}
+
+.build__item p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  color: #FFF;
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 166.667% */
+}
+
+.build__item h5 {
+  color: #F67E7E;
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+}
+
+.build__list img {
+  margin-left: -100px;
+  margin-top: 50px;
+  margin-bottom: -90px;
+}
+
+.build__img_end {
+  margin-top: -155px;
+  margin-left: 1120px;
+}
+
+.deliver {
+  padding-top: 140px;
+  padding-bottom: 151px;
+  background: #004047;
+  background-image: url(../img/deliver1.png), url(../img/deliver2.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+.deliver__title {
+  color: #FFF;
+  text-align: center;
+  font-family: "Livvic", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+}
+.deliver__title span {
+  color: #79C8C7;
+}
+
+.deliver__list {
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deliver__item {
+  text-align: center;
+  background-image: url(../img/“.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  text-align: center;
+  padding-top: 20px;
+}
+.deliver__item .deliver__text {
+  width: 350px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 166.667% */
+}
+.deliver__item .deliver__name {
+  width: 350px;
+  color: #79C8C7;
+  text-align: center;
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+  margin-top: 24px;
+}
+.deliver__item .deliver__job {
+  width: 350px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Livvic", sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px; /* 138.462% */
+  margin-top: 5px;
+}
+.deliver__item .deliver__img {
+  margin-top: 20px;
+  width: 62px;
+  display: block;
+  margin-left: 140px;
+}
+
+.top__footer {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #F67E7E;
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.top__footer__inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ready {
+  margin-right: 260px;
+  color: #012F34;
+  font-family: "Livvic", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.footer__btn {
+  width: 153px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  border: 2px solid #012F34;
+  background: #F67E7E;
+}
+
+.footer__btn a {
+  color: #012F34;
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.bottom__footer {
+  height: 200px;
+  background: #002529;
+  justify-content: center;
+}
+
+.bottom__footer__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.bottom__footer__inner .social {
+  justify-content: right;
+}
+
+.my__team {
+  display: block;
+}
+.my__team .home {
+  color: white;
+  padding-right: 60px;
+}
+
+.info__item {
+  margin-left: -200px;
+  color: #FFF;
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  opacity: 0.6;
+}
+
+.social {
+  height: 100px;
+  flex-shrink: 0;
+}
+.social a {
+  color: #FFF;
+  text-align: left;
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  opacity: 0.6;
+  padding-top: 100px;
+}/*# sourceMappingURL=main.css.map */
